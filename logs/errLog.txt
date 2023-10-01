@@ -1,0 +1,9 @@
+20230928	23:55:20	37ff4f3c-9d69-4400-90b2-25ac7f38dfa6	Error:Site is not allowed by CORS
+20230928	23:55:20	8d44b508-3403-4a74-8cf5-e386bb47e3e6	Error:Site is not allowed by CORS
+20230929	00:48:38	834c3348-3d9f-45f4-9761-8006bdf26c98	Error:Site is not allowed by CORS
+20230929	00:48:39	b8cca7e0-83f1-4e7f-9164-f6b8bd8bd20d	Error:Site is not allowed by CORS
+20230929	08:30:51	27fa3cec-a66d-466f-b2d4-0362e701a196	Error:ENOENT: no such file or directory, stat '/home/devpdhana/Documents/ExpressJs_Practices/nodejs_web_server/views/text.html'
+20230929	08:34:07	1332bf0b-4fe8-44b1-843b-e7f08dd09da4	Error:ENOENT: no such file or directory, stat '/home/devpdhana/Documents/ExpressJs_Practices/nodejs_web_server/views/text.html'
+20230929	20:15:09	9ea2cc50-90d2-4a8a-88c4-dcee5b3dda25	Error:ENOENT: no such file or directory, stat '/home/devpdhana/Documents/ExpressJs_Practices/nodejs_web_server/routes/views/new-page.html'
+20230929	20:15:09	bfb8b05d-f73f-4da5-bd7c-0cdbe694a2cd	Error:ENOENT: no such file or directory, stat '/home/devpdhana/Documents/ExpressJs_Practices/nodejs_web_server/routes/views/new-page.html'
+20230929	20:15:20	638e67c0-8ac2-4279-9abc-5db67fa29634	Error:ENOENT: no such file or directory, stat '/home/devpdhana/Documents/ExpressJs_Practices/nodejs_web_server/routes/views/new-page.html'
