@@ -7,3 +7,15 @@
 20230929	20:15:09	9ea2cc50-90d2-4a8a-88c4-dcee5b3dda25	Error:ENOENT: no such file or directory, stat '/home/devpdhana/Documents/ExpressJs_Practices/nodejs_web_server/routes/views/new-page.html'
 20230929	20:15:09	bfb8b05d-f73f-4da5-bd7c-0cdbe694a2cd	Error:ENOENT: no such file or directory, stat '/home/devpdhana/Documents/ExpressJs_Practices/nodejs_web_server/routes/views/new-page.html'
 20230929	20:15:20	638e67c0-8ac2-4279-9abc-5db67fa29634	Error:ENOENT: no such file or directory, stat '/home/devpdhana/Documents/ExpressJs_Practices/nodejs_web_server/routes/views/new-page.html'
+20231001	07:57:51	07a78bb4-53a3-45e0-914e-10206ce69179	TypeError:data.employees.length is not a function
+20231001	10:21:47	be1e2590-3981-4c62-bc35-4f0fbaa7eea5	ReferenceError:reqlastName is not defined
+20231001	11:18:43	ae7c404b-8f87-47f6-ada2-8553c9906d77	ReferenceError:newEmpl is not defined
+20231001	15:11:26	c172302e-6785-449b-b2cc-06031db723d5	ReferenceError:setEmployees is not defined
+20231001	15:26:02	1545c684-dc89-4a4e-a697-907e6d36f207	ReferenceError:id is not defined
+20231001	15:26:33	d2195ac6-017c-4bd0-a473-39ae0a1f1d8d	TypeError:Cannot set properties of undefined (setting 'firstname')
+20231001	15:29:39	11e2b943-1fdd-4464-8448-0a32f9be3c42	TypeError:Cannot read properties of undefined (reading 'filter')
+20231001	15:30:39	8aeae403-7d70-482a-aab9-48a85b5a1671	TypeError:Cannot read properties of undefined (reading 'filter')
+20231001	16:14:04	ce20d7bd-34ca-4d90-8c4a-7d324f8b7d0c	ReferenceError:id is not defined
+20231001	16:14:23	f2e47ea8-e22a-40a1-9533-a93901a48b06	ReferenceError:Cannot access 'id' before initialization
+20231001	16:40:48	6d8b2073-827b-4d8e-9471-6f82d919dc0e	TypeError:Cannot set properties of undefined (setting 'firstname')
+20231001	16:42:40	cf804419-abeb-4b49-8557-d0688539583a	TypeError:Cannot set properties of undefined (setting 'firstname')

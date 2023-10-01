@@ -15,11 +15,18 @@ DELETE http://localhost:3000/employees/
 Content-Type: application/json
 
 {
-    "id":1,
+    "id":2
+}
+###
+
+PUT  http://localhost:3000/employees/
+Content-Type: application/json
+
+{
+    "id":2,
     "firstname":"amma",
     "lastname":"appa"
 }
-
 ###
 
-GET http://localhost:3000/employees/10
+GET http://localhost:3000/employees/3

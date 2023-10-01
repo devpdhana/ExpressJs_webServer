@@ -4,6 +4,7 @@ const path = require('path')
 const PORT = process.env.PORT || 3000
 const cors = require('cors')
 
+const corsOptions = require('./config/corsOptions')
 const {logger} = require('./middleware/logEvents')
 const errorHandler = require('./middleware/errorHandler')
 
@@ -26,21 +27,21 @@ app.use('/subdir',require('./routes/subdir'))
 app.use('/employees',require('./routes/api/employees'))
 
 //Third party middleware
-const whiteList = [
-  'https://www.google.com',
-  'http://www.127.0.0.1:3500',
-  'http://www.localhost:3000/',
-];
-const corsOptions = {
-    origin:(orign,callback)=>{
-        if (whiteList.indexOf(orign) !== -1 || !orign){
-            callback(null,true)
-        }else {
-            callback(new Error("Site is not allowed by CORS"))
-        }
-    },
-    optionsSuccessStatus : 200
-}
+// const whiteList = [
+//   'https://www.google.com',
+//   'http://www.127.0.0.1:3500',
+//   'http://www.localhost:3000/',
+// ];
+// const corsOptions = {
+//     origin:(orign,callback)=>{
+//         if (whiteList.indexOf(orign) !== -1 || !orign){
+//             callback(null,true)
+//         }else {
+//             callback(new Error("Site is not allowed by CORS"))
+//         }
+//     },
+//     optionsSuccessStatus : 200
+// }
 app.use(cors(corsOptions));
 
 
